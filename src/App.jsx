@@ -11,7 +11,7 @@ import Register from "./pages/register";
 import Payment from "./pages/Payment";
 import MyPayments from "./pages/MyPayments";
 import Admin from "./pages/Admin";
-import Gallery from "./pages/Gallery";
+import Gallery from "./pages/gallery";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import BookingConfirmation from "./pages/BookingConfirmation";
