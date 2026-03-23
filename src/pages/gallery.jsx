@@ -71,4 +71,4 @@ const Gallery = () => {
   );
 };
 
-export default gallery;
+export default Gallery;
