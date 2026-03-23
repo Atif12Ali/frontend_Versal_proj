@@ -21,10 +21,13 @@
 
 import axios from "axios";
 
-const API = axios.create({ baseURL: "/api" });
+// 1. Use the Vercel Environment Variable for the baseURL
+const api = axios.create({ 
+  baseURL: import.meta.env.VITE_API_URL || "http://localhost:5000" 
+});
 
-// Attach token to every request
-API.interceptors.request.use((config) => {
+// 2. Attach token to every request
+api.interceptors.request.use((config) => {
   const token = localStorage.getItem("token");
 
   if (token) {
@@ -34,4 +37,5 @@ API.interceptors.request.use((config) => {
   return config;
 });
 
+// 3. Match the name! (api lowercase matches const api lowercase)
 export default api;
