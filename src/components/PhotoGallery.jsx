@@ -1,10 +1,10 @@
 import React from 'react';
-import img1 from '../assets/Gallery/1.jpeg';
-import img2 from '../assets/Gallery/2.jpeg';
-import img3 from '../assets/Gallery/3.jpeg';
-import img4 from '../assets/Gallery/4.jpeg';
-import img5 from '../assets/Gallery/5.jpeg';
-import img6 from '../assets/Gallery/6.jpeg';
+import img1 from '../assets/gallery/1.jpeg';
+import img2 from '../assets/gallery/2.jpeg';
+import img3 from '../assets/gallery/3.jpeg';
+import img4 from '../assets/gallery/4.jpeg';
+import img5 from '../assets/gallery/5.jpeg';
+import img6 from '../assets/gallery/6.jpeg';
 
 const PhotoGallery = () => {
   const images = [img1, img2, img3, img4, img5, img6];
