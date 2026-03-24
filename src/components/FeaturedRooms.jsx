@@ -9,15 +9,15 @@ const FeaturedRooms = () => {
 
   const rooms = [
     {
-      id: 1,
+      id: '69c276e78dcbd1c06dd4f72a',
       image: room1,
-      price: '$120/night',
+      price: '2500/night',
       title: 'Deluxe Mountain View Room'
     },
     {
-      id: 2,
+      id: '69c277cc8dcbd1c06dd4f75b',
       image: room2,
-      price: '$150/night',
+      price: '3000/night',
       title: 'Premium Suite with Balcony'
     }
   ];
